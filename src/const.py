@@ -22,10 +22,7 @@ VGG16_ACT_FUNC_IN_POSE = 0
 
 MODEL_NAME = 'vgg16.pkl'
 
-if 'dlcs302-2' == _hostname:
-    base_path = '/home/hzy/datasets/DeepFashion/Category and Attribute Prediction Benchmark/'
-else:
-    base_path = '/home/dl/datasets/DeepFashion/Category and Attribute Prediction Benchmark/'
+base_path = "/content/Dataset/"
 
 NUM_EPOCH = 20
 LEARNING_RATE = 0.0001
